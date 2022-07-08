@@ -13,10 +13,18 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+<script src="https://kit.fontawesome.com/6b35074062.js" crossorigin="anonymous"></script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<!-- google font for homepage hero text-->
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+	<!-- font for homepage heading text -->
+	<link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Caveat&family=Courgette&family=Merienda&family=Oleo+Script:wght@400;700&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+	<!-- font for gratitude list -->
+	<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Amaranth&family=Caveat&family=Charm&family=Courgette&family=Fugaz+One&family=Italianno&family=Merienda&family=Oleo+Script:wght@400;700&family=Podkova&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+	
+	
 	<?php wp_head(); ?>
 </head>
 

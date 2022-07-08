@@ -11,22 +11,35 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'my-portfolio' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'my-portfolio' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'my-portfolio' ), 'my-portfolio', '<a href="http://underscores.me/">Ruku</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+
+	
+<footer id="colophon" class="site-footer">
+        <div class="footerBox">
+        <?php
+            wp_nav_menu(array(
+                'menu' => 'Nav Menu',
+                'theme_location' => 'footer-menu',
+                'menu_class' => 'footer-menu',
+                'menu_id' => 'footer-id'
+            ))
+        ?>
+
+
+        </div>
+        <div class="footerBox">
+            <p>&copy; Ruku Bhattarai</p>
+        </div>
+        <div class="footerBox">
+            <div class="socialMedia">
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+            </div>
+        </div>
+        
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+    <!-- This is the end of footer -->
 
 <?php wp_footer(); ?>
 

@@ -4,7 +4,7 @@
 .site-header{
 	height: 60px;
     width: 100%;
-    background-color: #ba7af1;
+    background-color: rgb(17, 17, 49);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -14,6 +14,7 @@
     margin: 5px 15px;
     height:50px;
     width:50px;
+	
 }
 }
 
@@ -27,6 +28,7 @@
 		margin: 0;
 		padding-left: 0;
 		float: right;
+		
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -47,6 +49,7 @@
 				&.focus > ul {
 					display: block;
 					left: auto;
+					
 				}
 			}
 
@@ -54,13 +57,13 @@
 				width: 200px;
 			}
 
-			:hover > a,
-			.focus > a {
-			}
+			// :hover > a,
+			// .focus > a {
+			// }
 
-			a:hover,
-			a.focus {
-			}
+			// a:hover,
+			// a.focus {
+			// }
 		}
 
 		li:hover > ul,
@@ -72,16 +75,16 @@
 	li {
 		position: relative;
 
-		&:hover > a,
-		&.focus > a {
-		}
+		// &:hover > a,
+		// &.focus > a {
+		// }
 	}
 
 	a {
 		display: block;
 		text-decoration: none;
 		display: inline-block;
-    	color: #000;
+    	color: whitesmoke;
     	font-weight: bolder;
     	text-transform: uppercase;
     	margin: 20px 20px;
@@ -94,11 +97,11 @@
 		}
 	}
 
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a,
-	.current-menu-ancestor > a {
-	}
+	// .current_page_item > a,
+	// .current-menu-item > a,
+	// .current_page_ancestor > a,
+	// .current-menu-ancestor > a {
+	// }
 }
 
 /* Small menu. */

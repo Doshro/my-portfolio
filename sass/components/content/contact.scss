@@ -1,0 +1,100 @@
+body{
+     background-color: rgb(4, 4, 19);
+  }
+//  .main-section{
+//      margin: 20px;
+//  }
+    
+// .heading{
+//     text-align: center;
+//     font-size: 45px;
+//     color: purple;
+// }
+// .contact-title {
+//     text-align: center;
+//     padding-top: 50px;
+//     margin-bottom: 50px;
+//     color: white;
+//     font-size: 40px;
+// }
+
+
+// .contact-form {
+//     margin-left:300px;
+//     margin-right: 300px;
+//     margin-top: 10px;
+//     background-color: brown;
+//     border: 2px solid black;
+//     border-radius: 10px;
+//     padding-bottom: 20px;
+    
+// }
+
+// label, textarea, input { 
+//     margin-left: 250px;
+//     padding: 20px;
+//     border-radius: 10px; 
+
+// }
+// label {
+//     color: white;
+// }
+
+// .submit-button{
+//     margin-left: 300px;
+
+// }
+// #qns{
+//     height: 100px;
+//     width: 250px;
+//     text-align: center;
+// }
+
+.form-container{
+    background-color: rgb(4, 4, 19);
+    width: 50%;
+    margin: 0 auto;
+
+    h1{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Merienda', cursive;
+    }
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type = "tel"],
+.wpcf7 textarea,
+.wpcf7 label,
+.wpcf7 label{
+    font-size:30px;
+    color:white;
+    width: 100%;
+    background-color: rgb(4, 4, 19);
+}
+textarea{
+    height: 200px;
+}
+.contact-button{
+    margin-left: 280px;
+    margin-bottom: 20px;
+    
+    background-color: rgb(8, 8, 63);
+    text-align: center;
+    
+   
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 120px;
+    
+
+}
+}
+
+
+
+
+

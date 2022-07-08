@@ -1,0 +1,107 @@
+.section1{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+
+    .everest{
+        width: 30%;
+        border: 1px solid white;
+        text-align: center;
+        height: 400px;
+
+        p{
+            font-size: 25px;
+            color: white;
+            font-family: 'Merienda', cursive;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            height: 50px;
+            width: 140px;
+            border: 2px solid green;
+            border-radius: 20px;
+            padding-bottom: 20px;
+        }
+
+        button:hover{
+            background-color: goldenrod;
+        }
+    }
+}
+.section2{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    margin-bottom: 50px;
+
+    .pets-nature{
+        width: 47%;
+        border: 1px solid white;
+        text-align: center;
+        height: 500px;
+
+        p{
+            font-size: 25px;
+            color: white;
+            font-family: 'Merienda', cursive;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            height: 50px;
+            width: 140px;
+            border: 2px solid green;
+            border-radius: 20px;
+            padding-bottom: 20px;
+        }
+
+        button:hover{
+            background-color: goldenrod;
+        }
+        
+    }
+}
+
+.section3{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    height: 400px;
+
+    .vegas{
+        width: 30%;
+        border: 1px solid white;
+        text-align: center;
+
+        p{
+            font-size: 25px;
+            color: white;
+            font-family: 'Merienda', cursive;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            height: 50px;
+            width: 140px;
+            border: 2px solid green;
+            border-radius: 20px;
+            padding-bottom: 20px;
+        }
+        button:hover{
+            background-color: goldenrod;
+        }
+    }
+}

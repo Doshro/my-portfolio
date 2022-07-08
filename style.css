@@ -626,7 +626,7 @@ textarea {
 .site-header {
   height: 60px;
   width: 100%;
-  background-color: #ba7af1;
+  background-color: #111131;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -679,7 +679,7 @@ textarea {
   display: block;
   text-decoration: none;
   display: inline-block;
-  color: #000;
+  color: whitesmoke;
   font-weight: bolder;
   text-transform: uppercase;
   margin: 20px 20px;
@@ -690,6 +690,7 @@ textarea {
 .main-navigation a:active {
   color: cornflowerblue;
 }
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -727,6 +728,79 @@ textarea {
   flex: 1 0 50%;
 }
 
+/* This is the start of footer  */
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #0c0c1d;
+  margin-bottom: -25px;
+}
+
+.footerBox {
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin: 0px 20px;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+
+.footerBox ul {
+  list-style-type: none;
+  margin-top: 60px;
+}
+
+.footerBox a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerBox ul li {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 20px 20px;
+}
+
+.footerBox a:hover {
+  color: greenyellow;
+}
+
+.footerBox a:active {
+  color: cornflowerblue;
+}
+
+.footerBox p {
+  margin-top: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.footerBox p:hover {
+  color: greenyellow;
+}
+
+.socialMedia {
+  margin-top: 100px;
+}
+
+.socialMedia i {
+  margin: 0px 10px;
+}
+
+.socialMedia i {
+  color: white;
+}
+
+.socialMedia i:hover {
+  color: yellowgreen;
+}
+
+.socialMedia i:active {
+  color: cornflowerblue;
+}
+
+/* This is the end of footer  */
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -753,6 +827,475 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+.hero-section {
+  background-color: #030314;
+}
+.hero-section hr {
+  margin: 0px 20px;
+  color: yellow;
+}
+.hero-section h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 20px;
+  text-decoration: underline;
+  font-family: "Merienda", cursive;
+}
+.hero-section p {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+}
+.hero-section .hero-image {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.hero-section .hero-image p {
+  color: wheat;
+  padding-left: 200px;
+  font-size: 60px;
+  font-family: "Caveat", cursive;
+}
+.hero-section .hero-image img {
+  height: 600px;
+  width: 600px;
+  border-radius: 300px;
+}
+
+#about-heading {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: wheat;
+  text-decoration: underline;
+  font-family: "Merienda", cursive;
+}
+
+.about-hero {
+  background-color: #020216;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about-hero #about-img {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+  background-image: url(http://myportfolio.local/wp-content/uploads/2022/06/single1__3_-removebg-preview-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.about-hero .about-text {
+  height: 600px;
+  width: 600px;
+  padding: 20px 30px 20px 50px;
+  font-size: 22px;
+  color: wheat;
+  margin-bottom: 20px;
+  font-family: "Podkova", serif;
+}
+
+hr {
+  margin: 0px 20px;
+}
+
+.skill-head {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  color: wheat;
+  font-family: "Merienda", cursive;
+}
+
+.skill-section {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.skill-section .web-development {
+  height: 730px;
+  width: 30%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.skill-section .web-development .skill-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 130px;
+}
+.skill-section .web-development li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: wheat;
+}
+.skill-section .web-development p {
+  text-align: center;
+  font-size: 25px;
+  color: wheat;
+  font-weight: bolder;
+  font-family: "Merienda", cursive;
+}
+.skill-section .cosmo {
+  height: 730px;
+  width: 30%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.skill-section .cosmo .skill-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 100px;
+}
+.skill-section .cosmo li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: wheat;
+}
+.skill-section .cosmo p {
+  text-align: center;
+  font-size: 25px;
+  color: wheat;
+  font-weight: bolder;
+  font-family: "Merienda", cursive;
+}
+.skill-section .bio {
+  height: 730px;
+  width: 30%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.skill-section .bio .skill-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.skill-section .bio li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: wheat;
+}
+.skill-section .bio p {
+  text-align: center;
+  font-size: 25px;
+  color: wheat;
+  font-weight: bolder;
+  font-family: "Merienda", cursive;
+}
+
+.teach {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.teach .middle-img {
+  padding-top: 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.teach .middle-img img {
+  border-radius: 300px;
+  margin-right: auto;
+}
+.teach .middle-img p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: wheat;
+}
+.teach .elementry-img {
+  border-radius: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.teach .elementry-img img {
+  border-radius: 300px;
+  margin-right: auto;
+}
+.teach .elementry-img p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: wheat;
+}
+.teach .arrows {
+  height: 400px;
+  width: 400px;
+}
+.teach .arrows p {
+  font-size: 25px;
+  text-align: center;
+  color: wheat;
+  font-weight: bolder;
+  font-family: "Merienda", cursive;
+}
+
+.hobby-head {
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  text-decoration: underline;
+  font-family: "Merienda", cursive;
+}
+
+.hobby {
+  background-color: black;
+}
+.hobby h2 {
+  text-align: center;
+  color: wheat;
+  font-family: "Merienda", cursive;
+}
+.hobby .first-hobby {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.hobby .second-hobby {
+  display: flex;
+  justify-content: space-around;
+  border-top: 10px solid brown;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.career-journey {
+  height: 200px;
+  margin: 0px;
+}
+.career-journey h1 {
+  color: wheat;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: "Merienda", cursive;
+}
+.career-journey h2 {
+  font-size: 30px;
+  text-align: center;
+  color: wheat;
+  font-family: "Merienda", cursive;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.section1 .everest {
+  width: 30%;
+  border: 1px solid white;
+  text-align: center;
+  height: 400px;
+}
+.section1 .everest p {
+  font-size: 25px;
+  color: white;
+  font-family: "Merienda", cursive;
+}
+.section1 .everest button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  width: 140px;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.section1 .everest button:hover {
+  background-color: goldenrod;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.section2 .pets-nature {
+  width: 47%;
+  border: 1px solid white;
+  text-align: center;
+  height: 500px;
+}
+.section2 .pets-nature p {
+  font-size: 25px;
+  color: white;
+  font-family: "Merienda", cursive;
+}
+.section2 .pets-nature button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  width: 140px;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.section2 .pets-nature button:hover {
+  background-color: goldenrod;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  height: 400px;
+}
+.section3 .vegas {
+  width: 30%;
+  border: 1px solid white;
+  text-align: center;
+}
+.section3 .vegas p {
+  font-size: 25px;
+  color: white;
+  font-family: "Merienda", cursive;
+}
+.section3 .vegas button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  width: 140px;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.section3 .vegas button:hover {
+  background-color: goldenrod;
+}
+
+body {
+  background-color: #040413;
+}
+
+.form-container {
+  background-color: #040413;
+  width: 50%;
+  margin: 0 auto;
+}
+.form-container h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Merienda", cursive;
+}
+.form-container .wpcf7 input[type=text],
+.form-container .wpcf7 input[type=email],
+.form-container .wpcf7 input[type=tel],
+.form-container .wpcf7 textarea,
+.form-container .wpcf7 label,
+.form-container .wpcf7 label {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  background-color: #040413;
+}
+.form-container textarea {
+  height: 200px;
+}
+.form-container .contact-button {
+  margin-left: 280px;
+  margin-bottom: 20px;
+  background-color: #08083f;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  width: 120px;
+}
+
+.gratitude h1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  border: 1px solid white;
+  width: 400px;
+  margin: 0 auto;
+  font-family: "Merienda", cursive;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.gratitude p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: "Podkova", serif;
+}
+.gratitude .name {
+  text-align: center;
+  font-size: 20px;
+  color: greenyellow;
+  font-family: "Podkova", serif;
+}
+
+/*This is the start of the back to top button  */
+.topButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.topButton a {
+  padding: 8px 15px;
+  background-color: #03031d;
+  border: 2px solid green;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.topButton a:hover {
+  background-color: green;
+}
+
+.topButton a:active {
+  background-color: cornflowerblue;
+}
+
+/* This is the end of the back to top button */
 /* Comments
 --------------------------------------------- */
 .comment-content a {
