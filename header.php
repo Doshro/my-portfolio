@@ -23,8 +23,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Caveat&family=Courgette&family=Merienda&family=Oleo+Script:wght@400;700&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 	<!-- font for gratitude list -->
 	<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Amaranth&family=Caveat&family=Charm&family=Courgette&family=Fugaz+One&family=Italianno&family=Merienda&family=Oleo+Script:wght@400;700&family=Podkova&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-	
-	
+	<!-- font for about text -->
+	<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya:ital@1&family=Amaranth&family=Caveat&family=Charm&family=Courgette&family=Fugaz+One&family=Italianno&family=Merienda&family=Oleo+Script:wght@400;700&family=Podkova&family=Roboto:wght@100;300;500;700&family=Rokkitt:wght@200&display=swap" rel="stylesheet">
+	<!-- fonts for gratitude names -->
+	<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya:ital@1&family=Amaranth&family=Caveat&family=Charm&family=Courgette&family=Fugaz+One&family=Italianno&family=Merienda&family=Oleo+Script:wght@400;700&family=Podkova&family=Roboto:wght@100;300;500;700&family=Rokkitt:wght@200&family=Satisfy&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 

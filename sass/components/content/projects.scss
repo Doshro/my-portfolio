@@ -1,3 +1,20 @@
+.projects{
+    text-align: center;
+    color: white;
+
+    h1{
+        font-size: 50px;
+        padding-bottom: 40px;
+        text-decoration: underline;
+        font-family: 'Merienda', cursive;
+    }
+    h2{
+        font-size: 30px;
+        font-family: 'Merienda', cursive;  
+    }
+}
+
+
 .section1{
     
     display: flex;
@@ -11,6 +28,14 @@
         border: 1px solid white;
         text-align: center;
         height: 400px;
+        
+        img:hover{
+            transform: scale(1.5);
+        }
+
+        a{
+            color: white;
+        }
 
         p{
             font-size: 25px;
@@ -47,6 +72,10 @@
         text-align: center;
         height: 500px;
 
+        a{
+            color: white;
+        }
+
         p{
             font-size: 25px;
             color: white;
@@ -71,6 +100,13 @@
     }
 }
 
+.wordpress{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;  
+}
+
 .section3{
     
     display: flex;
@@ -83,6 +119,14 @@
         width: 30%;
         border: 1px solid white;
         text-align: center;
+
+        img:hover{
+            transform: scale(1.5);
+        }
+
+        a{
+            color: white;
+        }
 
         p{
             font-size: 25px;
@@ -104,4 +148,8 @@
             background-color: goldenrod;
         }
     }
+}
+.project-link{
+    color: white;
+    text-decoration: none;
 }

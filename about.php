@@ -13,7 +13,10 @@
 <section class="about-hero">
 	
 <div class="about-text">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non orci id tellus vulputate ornare. Praesent a ligula consectetur, ultricies lectus non, dapibus ipsum. Cras bibendum lorem ac nisl pulvinar, sed porta turpis tincidunt. Nam nec ultrices libero. Nulla vulputate ornare pharetra. Sed aliquam egestas urna, quis mollis orci. Phasellus feugiat posuere gravida. Nulla quam felis, gravida quis faucibus at, ornare sit amet velit. Suspendisse ac est et tellus tincidunt aliquet sit amet quis nulla. Maecenas feugiat lorem vitae fringilla fringilla.Ut cursus purus ex, ut pulvinar mauris ultrices a. Donec a leo ante. Morbi consectetur, tellus sed cursus pretium, arcu nisi posuere mauris, a auctor leo velit sed tortor. </p>
+		<p>Hello! This is Ruku Bhattarai, a wordPress developer  from Sacramento California. I was born and raised in a small but beautiful country, Nepal.<br>
+ 
+ I started my career journey as a teacher though I had an inner passion to get into the computer field. I could never dare to get into the tech field thinking that one should have computer knowledge beforehand for that. I became a threader, a research associate and  a cosmetologist. But none of these professions could satisfy my inner interest . As they say that it’s never too late to start,  keeping that in mind, after twenty years of my career journey, I decided to start my dream career as a coder. Meantime and luckily I heard about Bitwise Industry which was offering a class ‘’Website for Beginners’’. Which was perfect for the new beginners like me without any prior knowledge. And yes, Bitwise proved that anyone with zero experience in the computer field can become a developer. I am an example. I believe that ‘Nothing is impossible as long as you are passionate and work hard to get it.’
+</p>
 
 	</div> 
 

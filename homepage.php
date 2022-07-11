@@ -11,14 +11,15 @@
 <h1 id=about-heading></h1>
 
 <section class="hero-section">
-	<h1>Welcome to My Portfolio</h1>
-	<p> Hello everyone!<br>This is Ruku,<br>a WordPress developer.</p>
+	<h1><?php the_field('main_heading');?></h1>
+	<p><?php the_field('sub_heading_first_line');?> <br> <?php the_field('sub_heading_second_line');?><br> <?php the_field('sub_heading_line_three');?></p>
 	<hr>
 	<div class="hero-image">
 		<img src="http://myportfolio.local/wp-content/uploads/2022/06/single-3.jpeg" alt="hero image">
 		<p>Be Such a <br>Beautiful Soul <br>That People <br>Crave Your <br>Vibes</p>
 	</div>
 </section>
+
 
 
 
