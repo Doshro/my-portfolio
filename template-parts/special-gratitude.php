@@ -11,7 +11,7 @@
 
 
 <section class="gratitude">
-	<h1>Special Gratitude</h1>
+	<h1> <marquee> Special</marquee> <marquee>Gratitude</marquee></h1>
 	<div class="row1">
 	<div class="nepts">
 		<img src="http://myportfolio.local/wp-content/uploads/2022/07/nepts-1.png" alt="Nepts">
@@ -30,7 +30,7 @@
 	<div class="row2">
 	
 	<div class="miguel">
-		<img src="http://myportfolio.local/wp-content/uploads/2022/07/mgl.jpg">
+		<img class="miguel-img" src="http://myportfolio.local/wp-content/uploads/2022/07/mgl.jpg">
 		<p><a href="https://www.linkedin.com/in/miguel-angel-macias-flores/">Miguel Macias</a></p>
 		<p class="secondp">Student success specialist at Bitwise Industries</p>
 	</div>
@@ -43,6 +43,7 @@
 
 
 	</div>
+	<p class="scc">And My Apprenticeship Group</p>
 	
 </section> 
 

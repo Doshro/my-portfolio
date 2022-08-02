@@ -13,10 +13,11 @@
 <section class="about-hero">
 	
 <div class="about-text">
-		<p>Hello! This is Ruku Bhattarai, a wordPress developer  from Sacramento California. I was born and raised in a small but beautiful country, Nepal.<br>
+		<p>Hello! This is Ruku Bhattarai, a WordPress developer  from Sacramento California. I was born and raised in a small but beautiful country, Nepal.<br>
  
- I started my career journey as a teacher though I had an inner passion to get into the computer field. I could never dare to get into the tech field thinking that one should have computer knowledge beforehand for that. I became a threader, a research associate and  a cosmetologist. But none of these professions could satisfy my inner interest . As they say that it’s never too late to start,  keeping that in mind, after twenty years of my career journey, I decided to start my dream career as a coder. Meantime and luckily I heard about Bitwise Industry which was offering a class ‘’Website for Beginners’’. Which was perfect for the new beginners like me without any prior knowledge. And yes, Bitwise proved that anyone with zero experience in the computer field can become a developer. I am an example. I believe that ‘Nothing is impossible as long as you are passionate and work hard to get it.’
-</p>
+		I started my career journey as a teacher though I had an inner passion for the computer field. I could never dare to get into the tech field thinking that one should have prior knowledge beforehand. I became a threader, a research associate, and  a cosmetologist. However,  none of these professions could satisfy my inner interest . As they say  “It is never too late to start”, with that in mind, after twenty years into my career journey, I decided to start my dream career as a coder. luckily, I heard about Bitwise Industry which was offering a class ‘’Website for Beginners.’’ This was perfect for beginners like me without any prior knowledge.  Bitwise proved that anyone with zero experience in the computer field can become a developer. I am an example. I believe that “Nothing is impossible as long as you are passionate and work hard to get it”</p>
+
+
 
 	</div> 
 
@@ -24,7 +25,7 @@
 
 </section>
 
-<hr>
+<hr class="hrbelow-img">
 
 <h1 class="skill-head"> My Skills</h1>
 

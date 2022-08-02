@@ -3,19 +3,41 @@ background-color: rgb(3, 3, 20);
 
 hr{
     margin: 0px 20px;
-    color: yellow;
+    
 }
 
 
-h1{
+ h1{
     text-align: center;
     color: white;
     font-size: 50px;
     padding-top: 20px;
     text-decoration: underline;
     font-family: 'Merienda', cursive;
-    
-}
+
+            text-transform: uppercase;
+            animation: animate 2s ease-in-out infinite;
+            animation-delay: calc(0.1s * var(--i));
+
+            @keyframes animate {
+                0% {
+                    transform: translateY(0px);
+                }
+      
+                20% {
+                    transform: translateY(-20px);
+                }
+      
+                40%,
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+        }
+
+            
+
+
 p{
     
     text-align: center;
@@ -23,18 +45,20 @@ p{
     color: white;
     font-weight: bold;
     font-family: 'Merienda', cursive;
+
 }
+
 .hero-image{
     display: flex;
     padding: 20px;
     margin-bottom: 100px;
-// text-align: center;
+
 p{
     color: white;
     padding-left: 200px;
     font-size: 60px;
-    // padding-top: 100px;
     font-family: 'Caveat', cursive;
+    margin-top: 100px;
 }
 
 
@@ -42,11 +66,101 @@ img{
     height: 600px;
     width: 600px;
     border-radius: 300px;
-    
+}
+img:hover{
+    transition: 1s ease;
+    opacity:0.3;
+}
+}
+}
 
-}
-}
-}
+//Mobile breakpoint
+@media (min-width:375px) and (max-width:480px){
+    .hero-section{
+        background-color: rgb(3, 3, 20);
+        
+        hr{
+            margin: 0px 20px;
+            color: yellow;
+        }
+        
+        
+         h1{
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            padding-top: 20px;
+            text-decoration: underline;
+            font-family: 'Merienda', cursive;
+        
+                    text-transform: uppercase;
+                    animation: animate 2s ease-in-out infinite;
+                    animation-delay: calc(0.1s * var(--i));
+        
+                    @keyframes animate {
+                        0% {
+                            transform: translateY(0px);
+                        }
+              
+                        20% {
+                            transform: translateY(-20px);
+                        }
+              
+                        40%,
+                        100% {
+                            transform: translateY(0px);
+                        }
+                    }
+                }
+        
+                    
+        
+        
+        p{
+            
+            // text-align: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            font-family: 'Merienda', cursive;
+        
+        }
+        
+        .hero-image{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // padding: 20px;
+            margin-bottom: 50px;
+            align-items: center;
+
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 150px;
+            // margin-left: 60px;
+        }
+
+        p{
+            color: white;
+            font-size: 30px;
+            font-family: 'Caveat', cursive;
+            margin-top: 50px;
+            // text-align: center;
+            margin-right: 100px;
+            position: relative;
+            right: 48px;
+            
+            
+        }
+        
+        img:hover{
+            transition: 1s ease;
+            opacity:0.3;
+        }
+        }
+        }
+    }
 
 
 

@@ -7,6 +7,20 @@
         padding-bottom: 40px;
         text-decoration: underline;
         font-family: 'Merienda', cursive;
+        animation: animate 0.5s infinite;
+        @keyframes animate {
+            0% {
+                transform: translateY(0px);
+            }
+     
+            50% {
+                transform: translateY(-20px);
+            }
+     
+            100% {
+                transform: translateY(0px);
+            }
+        }
     }
     h2{
         font-size: 30px;
@@ -30,7 +44,8 @@
         height: 400px;
         
         img:hover{
-            transform: scale(1.5);
+            transition: 0.8s;
+            transform: scale(1.8);
         }
 
         a{
@@ -71,6 +86,11 @@
         border: 1px solid white;
         text-align: center;
         height: 500px;
+
+        img:hover{
+            transition: 0.8s;
+            transform: scale(1.8);
+        }
 
         a{
             color: white;
@@ -113,15 +133,18 @@
     justify-content: space-around;
     margin-bottom: 50px;
     padding-bottom: 40px;
-    height: 400px;
+    // height: 400px;
 
     .vegas{
         width: 30%;
         border: 1px solid white;
         text-align: center;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
 
         img:hover{
-            transform: scale(1.5);
+            transition: 0.8s;
+            transform: scale(1.8);
         }
 
         a{
@@ -152,4 +175,125 @@
 .project-link{
     color: white;
     text-decoration: none;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 480px) {
+
+    .section1{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+    
+        .everest{
+            width: 400px;
+            border: 1px solid white;
+            text-align: center;
+            height: 400px;
+            margin-bottom: 50px;
+            
+            img:hover{
+                transition: 0.8s;
+                transform: scale(1.8);
+            }
+    
+            a{
+                color: white;
+            }
+    
+            p{
+                font-size: 25px;
+                color: white;
+                font-family: 'Merienda', cursive;
+            }
+    
+            button{
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                height: 50px;
+                width: 140px;
+                border: 2px solid green;
+                border-radius: 20px;
+                padding-bottom: 20px;
+            }
+    
+            button:hover{
+                background-color: goldenrod;
+            }
+        }
+    }
+
+    .section2{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    
+        .pets-nature{
+            width: 400px;
+            border: 1px solid white;
+            text-align: center;
+            height: 400px;
+            margin-bottom: 50px;
+    
+            img:hover{
+                transition: 0.8s;
+                transform: scale(1.8);
+            }
+    
+            a{
+                color: white;
+            }
+    
+            p{
+                font-size: 25px;
+                color: white;
+                font-family: 'Merienda', cursive;
+            }
+    
+            button{
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                height: 50px;
+                width: 140px;
+                border: 2px solid green;
+                border-radius: 20px;
+                padding-bottom: 20px;
+            }
+    
+            button:hover{
+                background-color: goldenrod;
+            }
+            
+        }
+    }
+
+    .wordpress{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        text-decoration: underline;
+        font-family: 'Merienda', cursive;  
+        margin-bottom: 50px;
+    }
+    .section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+
+    .vegas{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 40px;
+    }
+} 
 }

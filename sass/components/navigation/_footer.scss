@@ -1,68 +1,209 @@
-/* This is the start of footer  */
+// /* This is the start of footer  */
 
-footer{
+// footer{
+//     width: 100%;
+//     height: 250px;
+//     background-color: rgb(12, 12, 29);
+//     margin-bottom: -25px;
+  
+// }
+// .footerBox{
+//    width: 30%;
+//    height: 200px;
+//    float: left;
+//    margin:0px 20px ;
+//     text-align: center;
+   
+   
+//     /* border: 1px solid #000; */
+// }
+// .footerBox ul{
+//     list-style-type: none;
+//     margin-top: 60px;
+// }
+// .footerBox a{
+//     text-decoration: none;
+//     color: white;
+// }
+// .footerBox ul li{
+   
+   
+//     font-weight: bolder;
+//     text-transform: uppercase;
+//     margin: 20px 20px;
+
+// }
+// .footerBox a:hover{
+//     color: greenyellow;
+//     font-size: 25px;
+  
+// }
+// .footerBox a:active{
+//     color:cornflowerblue;
+// }
+// .footerBox p{
+//     margin-top: 200px;
+//     color: white;
+//     font-weight: bold;
+//     font-size: 12px;
+// }
+// .footerBox p:hover{
+//     color: greenyellow;
+//     font-size: 25px;
+// }
+// .socialMedia{
+//     margin-top: 100px;
+// }
+// .socialMedia i{
+//     margin: 0px 10px;
+// }
+// .socialMedia i{
+//     color: white;
+// }
+// .socialMedia i:hover{
+//     color: yellowgreen;
+//     transition: .5s;
+//     z-index: 2;
+//     transform: rotateY(360deg);
+// }
+// .socialMedia i:active{
+//     color:cornflowerblue;
+// }
+// /* This is the end of footer  */
+
+.ftcontainer{
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 250px;
     background-color: rgb(12, 12, 29);
     margin-bottom: -25px;
-   
-}
-.footerBox{
-    width: 30%;
-    height: 200px;
-    float: left;
-    margin:0px 20px ;
-    text-align: center;
-    
-    
-    /* border: 1px solid #000; */
-}
-.footerBox ul{
-    list-style-type: none;
-    margin-top: 60px;
-}
-.footerBox a{
-    text-decoration: none;
-    color: white;
-}
-.footerBox ul li{
-    
-    
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 20px 20px;
 
+    .foot{
+        margin-top: 50px;
+
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        a:hover{
+            
+                color: goldenrod;
+                font-size: 30px;
+            }
+        }
+
+        .copy{
+            color: white;
+            margin-top: 200px;
+        }
+        .copy:hover{
+            color: goldenrod;
+            font-size: 20px;
+        }
+
+        .social{
+            
+           text-align: center;
+           margin-top: 100px;
+        //    display: flex;
+        //    justify-content: space-around;
+
+           a{
+            color: white;
+            text-decoration: none;
+            padding-right: 20px;
+           }
+           .fa{
+            font-size: 35px;
+            
+           }
+            .fa:hover{
+            color: yellowgreen;
+            font-size: 40px;
+            transition: .5s;
+            z-index: 2;
+            transform: rotatex(360deg);
+        }
+        }
+    }
+  
+// Mobile breakpoint
+
+
+
+
+
+
+
+ @media (max-width:480px){
+     .ftcontainer{
+        width: 100%;
+       height: 250px;
+        background-color: rgb(12, 12, 29);
+        margin-bottom: -25px;
+        margin-top: 50px;
+    
+         .foot{
+             margin-top: 40px;
+    
+         a{
+            text-decoration: none;           
+            color: whitesmoke;
+            font-size: 15px;
+           font-weight: bolder;
+         }
+    
+             a:hover{
+                
+                     color: goldenrod;
+                     font-size: 25px;
+                 }
+             }
+    
+             .copy{
+                 color: white;
+                margin-top: 200px;
+                p{
+                    font-size: 12px;
+                    text-align: center;
+                    margin-left: 70px;
+                }
+            }
+            .copy:hover{
+                color: goldenrod;
+                font-size: 15px;
+            }
+    
+            .social{
+                
+               text-align: center;
+               margin-top: 100px;
+               display: flex;
+               justify-content: space-around;
+    
+               a{
+                color: white;
+                text-decoration: none;
+                padding-right: 10px;
+               }
+               .fa{
+                font-size: 25px;
+                
+               }
+                .fa:hover{
+                color: yellowgreen;
+                transition: .5s;
+                z-index: 2;
+                transform: rotatex(360deg);
+            }
+            }
+        }
+      
 }
-.footerBox a:hover{
-    color: greenyellow;
-    font-size: 25px;
-}
-.footerBox a:active{
-    color:cornflowerblue;
-}
-.footerBox p{
-    margin-top: 200px;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-}
-.footerBox p:hover{
-    color: greenyellow;
-    font-size: 25px;
-}
-.socialMedia{
-    margin-top: 100px;
-}
-.socialMedia i{
-    margin: 0px 10px;
-}
-.socialMedia i{
-    color: white;
-}
-.socialMedia i:hover{
-    color: yellowgreen;
-}
-.socialMedia i:active{
-    color:cornflowerblue;
-}
-/* This is the end of footer  */
+
+
+

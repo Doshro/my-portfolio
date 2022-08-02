@@ -16,12 +16,14 @@
 	<hr>
 	<div class="hero-image">
 		<img src="http://myportfolio.local/wp-content/uploads/2022/06/single-3.jpeg" alt="hero image">
-		<p>Be Such a <br>Beautiful Soul <br>That People <br>Crave Your <br>Vibes</p>
+		<div class="home-quote">
+		<p> <?php the_field('home_page_quote_line_one');?> <br> <?php the_field('home_page_quote_line_two');?> <br> <?php the_field('home_page_quote_line_three');?> <br><?php the_field('home_page_quote_line_four');?><br><?php the_field('home_page_quote_line_five');?></p>
+		</div>
 	</div>
 </section>
 
 
-
+<!-- That People -->
 
 
 

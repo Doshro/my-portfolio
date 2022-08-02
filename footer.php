@@ -13,35 +13,37 @@
 
 
 	
-<footer id="colophon" class="site-footer">
-        <div class="footerBox">
-        <?php
-            wp_nav_menu(array(
-                'menu' => 'Nav Menu',
-                'theme_location' => 'footer-menu',
-                'menu_class' => 'footer-menu',
-                'menu_id' => 'footer-id'
-            ))
-        ?>
-
-
-        </div>
-        <div class="footerBox">
-            <p>&copy; Ruku Bhattarai</p>
-        </div>
-        <div class="footerBox">
-            <div class="socialMedia">
-                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
-            </div>
-        </div>
+<section class="ftcontainer">
+    
+    <div class="foot">
+        <a href="homepage.php">Home</a></p>
+        <a href="about.php">About</a></p>
+        <a href="project.php">Projects</a></p>
+        <a href="contact.php">Contact</a></p>
         
-		</footer><!-- #colophon -->
-	</div><!-- #page -->
-    <!-- This is the end of footer -->
+        
 
-<?php wp_footer(); ?>
+    </div>
 
-</body>
-</html>
+    <div class="copy">
+    <p>&copy copy right, Ruku Bhattarai</p>
+</div>
+
+
+    
+    
+
+    <div class="social">
+        
+        <a href="https://facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" class="fa fa-twitter"></a>
+        <a href="https://linkedin.com" class="fa fa-linkedin"></a>
+        <a href="https://instagram.com" class="fa fa-instagram"></a>
+        
+
+    </div>
+    
+</section>
+<?php wp_footer(); ?> 
+
+

@@ -61,17 +61,18 @@ body{
         text-align: center;
         text-decoration: underline;
         font-family: 'Merienda', cursive;
+        animation: blink 1s infinite;
     }
-.wpcf7 input[type="text"],
-.wpcf7 input[type="email"],
-.wpcf7 input[type = "tel"],
-.wpcf7 textarea,
-.wpcf7 label,
-.wpcf7 label{
-    font-size:30px;
-    color:white;
-    width: 100%;
-    background-color: rgb(4, 4, 19);
+    .wpcf7 input[type="text"],
+    .wpcf7 input[type="email"],
+    .wpcf7 input[type = "tel"],
+    .wpcf7 textarea,
+    .wpcf7 label,
+    .wpcf7 label{
+        font-size:30px;
+        color:white;
+        width: 100%;
+        background-color: rgb(4, 4, 19);
 }
 textarea{
     height: 200px;
@@ -79,19 +80,75 @@ textarea{
 .contact-button{
     margin-left: 280px;
     margin-bottom: 20px;
-    
     background-color: rgb(8, 8, 63);
     text-align: center;
-    
-   
     color: white;
     font-size: 25px;
     padding: 15px;
     border-radius: 15px;
     width: 120px;
-    
-
 }
+
+.contact-button:hover{
+    background-color: orangered;
+    color: black;
+}
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 480px){
+    .form-container{
+        background-color: rgb(4, 4, 19);
+        width: 50%;
+        margin: 0 auto;
+    
+        h1{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            text-decoration: underline;
+            font-family: 'Merienda', cursive;
+            animation: blink 1s infinite;
+        }
+        .wpcf7 input[type="text"],
+        .wpcf7 input[type="email"],
+        .wpcf7 input[type = "tel"],
+        .wpcf7 textarea,
+        .wpcf7 label,
+        .wpcf7 label{
+            font-size:25px;
+            color:white;
+            width: 100%;
+            background-color: rgb(4, 4, 19);
+    }
+    textarea{
+        height: 100px;
+    }
+    .contact-button{
+
+        margin: 0% auto;
+        margin-bottom: 20px;
+        background-color: rgb(8, 8, 63);
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding: 15px;
+        border-radius: 15px;
+        width: 120px;
+    }
+    input.wpcf7-form-control.wpcf7-submit {
+        display: block;
+        margin: 0 auto;
+     }
+     
+
+    .contact-button:hover{
+        background-color: orangered;
+        color: black;
+    }
+    }
+
+    
 }
 
 

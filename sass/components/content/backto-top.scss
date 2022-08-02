@@ -16,6 +16,9 @@
 }
 .topButton a:hover{
     background-color: green;
+    transition: .5s;
+    z-index: 2;
+    transform: rotateY(360deg);
 }
 .topButton a:active{
     background-color: cornflowerblue;
